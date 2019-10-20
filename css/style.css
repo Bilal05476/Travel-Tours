@@ -15,7 +15,7 @@
     color: darkslateblue;
 }
 .header img{
-    width: 250px;
+    width: 150px;
     float: left;
     padding: 0;
     margin: 0;
@@ -137,6 +137,14 @@ h1{
     height: 180px;
     cursor: pointer;
     transition: 1s;
+}
+@media(max-width:768){
+    .gallery-box img{
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+}
 }
 .gallery-box img:hover{
     transform: scale(1.1);
